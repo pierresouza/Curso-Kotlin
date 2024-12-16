@@ -1,3 +1,5 @@
+package exercicios
+
 //Exercício de fixação
 fun main() {
     var nome:String = "Pierre"
