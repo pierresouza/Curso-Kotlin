@@ -1,18 +1,7 @@
 package exercicios
 
-fun main() {
-    val a = false
-    val b = false
-    val c = true
-    val d = true
 
-    println(a && b && c && d)
-    println(!a && !b && (c && d))
-    println(a && ((b || c) || d))
-    println(a || ((!b && c) || !d))
-}
-
-fun ex2(cargo: String, experiencia: Int): Float {
+fun ex1(cargo: String, experiencia: Int): Float {
     var bonus = 0f
     if (cargo == "Gerente") {
         if (experiencia > 2) {
@@ -34,16 +23,33 @@ fun ex2(cargo: String, experiencia: Int): Float {
     return bonus
 }
 
-fun ex1(cargo: String): Float {
-    var bonus = 0f
-    if (cargo == "Gerente") {
-        bonus = 2000f
+
+fun bonus(cargo: String): Float {
+    return if (cargo == "Gerente") {
+        2000f
     } else if (cargo == "Coordenador") {
-        bonus = 1500f
+        1500f
     } else if (cargo == "Engenheiro de software") {
-        bonus = 1000f
+        1000f
     } else if (cargo == "Estagiário") {
-        bonus = 500f
+        500f
+    }else{
+        0f
     }
-    return bonus
+}
+
+fun bonusWhen(cargo: String): Float {
+    return when (cargo) {
+        "Gerente" -> 2000f
+        "Coordenador" -> 1500f
+        "Eng. de software" -> 1000f
+        "Estagiário" -> 500f
+        else -> 0f
+
+    }
+
+}
+
+fun main() {
+
 }
