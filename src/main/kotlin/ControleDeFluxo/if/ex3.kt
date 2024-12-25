@@ -1,4 +1,4 @@
-package Controle_de_fluxo
+package ControleDeFluxo.`if`
 
 fun qualASaida(num:Int){
     if(num >= 0){
