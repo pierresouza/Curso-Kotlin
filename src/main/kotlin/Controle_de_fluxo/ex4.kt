@@ -3,7 +3,7 @@ package Controle_de_fluxo
 fun portaria() {
     println("Bem-vindo ao condomínio")
     print("Qual a sua idade: ")
-    val idade = readLine()?.toIntOrNull()
+    val idade = readLine()?.toInt()
 
     // Validação da idade
     if (idade == null || idade < 18) {
@@ -12,10 +12,10 @@ fun portaria() {
     }
 
     print("Qual o seu tipo de convite (Comum, Premium ou Luxo): ")
-    val convite = readLine()?.capitalize()
+    val convite = readLine()
 
     print("Qual o código do convite (Comum: XT, Premium/Luxo: XL): ")
-    val codigoConvite = readLine()?.uppercase()
+    val codigoConvite = readLine()
 
     // Validação do tipo de convite e código
     val entradaPermitida = when (convite) {
