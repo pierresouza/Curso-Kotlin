@@ -45,7 +45,6 @@ fun bonusWhen(cargo: String): Float {
         "Eng. de software" -> 1000f
         "Estagiário" -> 500f
         else -> 0f
-
     }
 
 }
