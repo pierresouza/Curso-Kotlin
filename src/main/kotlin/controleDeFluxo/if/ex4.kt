@@ -1,4 +1,4 @@
-package ControleDeFluxo.`if`
+package controleDeFluxo.`if`
 
 fun portaria() {
     println("Bem-vindo ao condomínio")

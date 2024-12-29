@@ -1,4 +1,4 @@
-package ControleDeFluxo.`while`
+package controleDeFluxo.`while`
 
 fun main() {
     var i = 0

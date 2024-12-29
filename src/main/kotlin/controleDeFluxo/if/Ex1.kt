@@ -1,4 +1,4 @@
-package ControleDeFluxo.`if`
+package controleDeFluxo.`if`
 
 fun main() {
     val ladoA = readLine()!!.toInt()

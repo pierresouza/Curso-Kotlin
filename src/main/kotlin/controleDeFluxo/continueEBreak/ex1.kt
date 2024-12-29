@@ -1,4 +1,4 @@
-package ControleDeFluxo.continueEBreak
+package controleDeFluxo.continueEBreak
 
 fun main() {
     var i = 0

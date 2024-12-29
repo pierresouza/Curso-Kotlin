@@ -1,4 +1,4 @@
-package ControleDeFluxo.doWhile
+package controleDeFluxo.doWhile
 
 fun main() {
     do {

@@ -1,4 +1,4 @@
-package ControleDeFluxo.`for`
+package controleDeFluxo.`for`
 
 fun main() {
     for (i in 1..10) {
