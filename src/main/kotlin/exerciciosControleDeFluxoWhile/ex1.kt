@@ -1,13 +1,12 @@
 package exerciciosControleDeFluxoWhile
 
 fun main() {
-    var caixaDeAgua:Int = 0
-    val balaoDeAgua:Int = 7
-    var resultado = 0
+    val capCaixa:Int = 2000
+    val capBalao:Int = 7
+    var numBaloes = 0
 
-    while (caixaDeAgua < 2000){
-        caixaDeAgua += balaoDeAgua
-        resultado++
+    while ((numBaloes * capBalao) + capBalao < capCaixa){
+        numBaloes++
     }
-    println("Foram necessários $resultado balões")
+    println("Foram necessários $numBaloes balões para preencher a caixa de água")
 }
